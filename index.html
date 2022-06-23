@@ -5,15 +5,105 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>formulario</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: cadetblue;
+        }
+        main{
+            width: 300px;
+            background-color: aqua;
+            margin: auto;
+            text-align: center;
+            border-radius: 10px;
+            text-align: auto;
+        }
+        header{
+            width:300px;
+         
+          display: block;
+         
+        }
+        body > main > p{
+            text-align: center;
+        }
+           ul > #pagamento{
+            padding: 10px;
+            background-color: blue;
+            color: white;
+            border-radius: 10px;
+        }
+        ul > #cancelar{
+            margin: 10px;
+            padding: 1opx;
+            background-color: azure;
+            color: blue;
+            border-radius: 10px;
+        }
+        div{
+            width: 200px;
+            display: block;
+            background-color: aliceblue;
+            margin: auto;
+            border-radius: 10px;
+         }     
+                .link{
+              
+                    font-size: larger;
+                
+                    border-radius: 5px;
+                    background-color: rgb(129, 238, 238);
+                 }
+           
+         .moeda{     
+                font-size: small;
+                background-color: antiquewhite;
+                width: 70px;
+                text-align: center;
+        }  
+        #pagamento:hover{
+         
+            background-color: aqua;
+            color: blue;
+            cursor: pointer;
+        }
+        #cancelar:hover{
+            cursor: pointer;
+            background-color: blue;
+            color: aquamarine;
+        }
+        
+       
+    </style>
 </head>
 <body>
+    <main>
+
     <header>
-        titulo
-    
+    <img src="imagens/imagem00.jpeg" alt="">    
+     </header>
+   
+    <h1>
+        resumo do pedido
+    </h1>
+    <p>
+        pode agora ouvir milhões de canções de livros áudio , e podcasts de qualquer dispositivo, sempre que quiser!
+    </p>
+    <div><strong>plano anual</strong>
+       
         <p>
-
+            <p class="moeda">R&dollar;50:00/ano</p>     <a class="link" href="#">link</a>
         </p>
-    </header>
+    </div>
+    <ul>
+        <button id="pagamento"type="concluir">
+            proseguir para pagamento
+        </button><br>
+        <button id="cancelar"type="voltar">
+            cancelar pedido
+        </button>
+    </ul>
 
+ </main>
 </body>
 </html>
